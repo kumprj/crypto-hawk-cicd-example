@@ -1,2 +1,2 @@
 # crypto-hawk-cicd-example
-A sample repo to showcase the GitHub Actions configuration for private crypto-hawk repository in a peer's account. 
+A sample repo to showcase the GitHub Actions configuration for private crypto-hawk repository in a peer's account. This application is a Python cryptocurrency trading algorithm deployed on AWS that is called on a ten minute schedule with EventBridge. The application is configured to open and close positions when the security steps out of the bollinger band range that is being reviewed. Text message alerts were fired when trades were opened or closed. This application did not make it past the shadow mode stage and integrations with Binance's API were abandoned. 
